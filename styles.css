@@ -128,6 +128,142 @@ header{
     height: 50px;
 }
 
+
+/* Lover */
+
+.lover{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 300px);
+    margin-top: 200px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+.lover-description{
+    /* border: 2px solid orange; */
+    max-width: 540px;
+    height: 520px;
+    align-items: center;
+
+}
+.lover-description h3{
+    font-size: 3.4rem;
+    font-weight: 800;
+    /* border: 2px solid orange; */
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.lover-description ul li{
+    font-size: 1.2rem;
+    margin: 20px auto;
+}
+
+/* Deals */
+.deal{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 300px);
+    align-items: center;
+    margin-bottom: 50px;
+}
+.deal h1{
+    font-size: 3.4rem;
+    font-weight: 800;
+}
+.deal p{
+    font-size: 1.2rem;
+    max-width: 680px;
+    /* border: 2px solid orange; */
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Offer Card */
+
+.promo-section {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    gap: 20px;
+    padding: 40px 0;
+    min-height: 400px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+    margin-top: 0px;
+    /* border: 2px solid orange; */
+  }
+  
+  /* Left Column */
+  .left-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+  }
+  
+  /* Right Column */
+  .right-column {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .card-1,
+  .card-2,
+  .card-3 {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+    min-height: 250px;
+    /* font-size: 2rem; */
+  }
+    
+  .promo-text {
+    text-align: center;
+    font-size: 1.8rem;
+    /* border: 2px solid orange; */
+  }
+  .promo-text-2{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .border{
+    border-left: 2px solid white;
+    padding-left: 5px;
+  }
+  .offer{
+    padding-right: 5px;
+  }
+  
+  .card-1 {
+    background-image: url('assets/deal-bloom.png');
+    border-radius: 22px;
+  }
+  
+  .card-2 {
+    background-image: url('assets/deal-ana.png');
+    border-radius: 22px;
+  }
+  
+  .card-3 {
+    background-image: url('assets/deal-zabo.png');
+    border-radius: 22px;
+    /* font-size: 2.5rem; */
+  }
+  .promo-section a{
+    /* text-decoration: none; */
+    color: white;
+  }
+  
+
 /* Join section */
 
 .container{
@@ -144,6 +280,8 @@ header{
     font-size: 2.8rem;
     /* margin-bottom: 5px; */
     color: white;
+    /* border: 2px solid orange; */
+    margin: auto;
 }
 
 #email{
@@ -167,70 +305,6 @@ header{
 
 /* Footer */
 
-/* .footer {
-    justify-content: space-between;
-    padding: 60px 150px;
-    flex-wrap: wrap;
-    gap: 110px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: calc(100% - 300px);
-}
-
-.footer-col {
-    flex: 1;
-    min-width: 200px;
-    margin-bottom: 30px;
-}
-
-.footer-logo {
-    width: 120px;
-    margin-bottom: 15px;
-}
-
-.footer h4 {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.footer p {
-    font-size: 0.95rem;
-    margin-bottom: 10px;
-}
-
-.footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer a {
-    color: gray;
-    text-decoration: none;
-    font-size: 1rem;
-    margin-bottom: 30px;
-    display: inline-block;
-    border: 2px solid orange;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
-}
-
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.2s ease;
-}
-
-.social-icons a:hover img {
-    transform: scale(1.1);
-} */
-
 .footer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -241,6 +315,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     max-width: calc(100% - 300px);
+    /* border: 2px solid orange; */
 }
 .footer a {
     color: gray;
